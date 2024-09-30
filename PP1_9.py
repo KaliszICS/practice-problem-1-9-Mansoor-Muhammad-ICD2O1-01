@@ -6,11 +6,12 @@ def q1():
 
 def q2(): 
   weak = input("Input a word: ")
-  print(weak.lower)
+  print(weak.lower())
+  print(weak.upper())
 
 
 def q3(): 
-  lean = ("Input a word that is at least 5 letters long: ")
+  lean = input("Input a word that is at least 5 letters long: ")
   print(lean[1:4])
 
 
@@ -21,16 +22,17 @@ def q4():
 
 def q5(): 
   need = input("Input a word: ")
-  print(need[0: ])
+  print(len(need))
 
 
 
 
 #Do not alter the following code
 #Comment out the following code when running your tests
-
+'''
 q1()
 q2()
 q3()
 q4()
 q5()
+'''
